@@ -1,0 +1,12 @@
+@media(min-width:768px){
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2,50%);
+    }
+}
+@media(max-width:769px){
+    .container{
+        display: grid;
+        grid-template-rows: 100%;
+    }
+}

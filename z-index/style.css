@@ -1,0 +1,13 @@
+.container{
+    position: relative;
+}
+.container img{
+    position: absolute;
+}
+#img2{
+    z-index:1;
+    
+}
+#img1{
+    z-index: 2;
+}

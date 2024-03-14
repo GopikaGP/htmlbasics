@@ -1,0 +1,291 @@
+*{
+    font-family: "Inter", sans-serif;
+    margin:0px;
+    padding:0px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    margin-left: 100px;
+    align-items: center;  
+    /* align -item center for verticalyy center */
+}
+
+#logo{
+    width: 130px;
+    
+}
+.link{
+    text-decoration:none;
+    color: black;
+    font-weight: bold;
+   
+}
+.link:hover{
+    color:red;
+}
+.listItem{
+    list-style-type: none;  /* REMOVE THE DOT IN THE SECTION */
+    display: inline;   /*   */
+    padding: 10px 20px;
+    /* also we can use here margin also */
+    
+}
+/* #home{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+.title{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+.title h1{
+    font-size:55px;
+    padding-bottom:25px ;
+}
+.title p{
+    font-size: 17px;
+}
+#last_name{
+    color: orange;
+}
+
+
+#button{
+     margin-top: 30px;
+    background-color: black;
+    padding:10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 6px;
+    display: inline-block;
+}
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+}
+.imageGroup{
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%);
+    transition: bottom 1s,left 2s;
+}
+.images:hover #girl{
+left: 40%;
+}
+.images:hover #shape{
+    bottom: 50px;
+}
+/* .title{
+    text-align: center;
+} */
+/* #intro{
+    font-size: large;
+    font-weight: 600;
+    color: green;
+    line-height: 10px;
+}
+.about_title{
+    text-align: center;
+    padding-top: 20%;
+}
+.about_main{
+    display: flex;
+    gap: 30px;
+    margin-left: 8%;
+    margin-top: 6%;
+    margin-right: 10%;
+}
+.para_child{
+    text-align: justify;
+    padding-bottom:10%;
+    line-height: 25px;
+}
+.info_box{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 30px;
+
+    font-weight: bold;
+}
+
+ */
+
+/* about */
+#about{
+    margin: 23% 8% 0% 8%;
+}
+.heading{
+    text-align: center;
+   
+}
+.heading h1{
+    
+    font-size: 35px;
+}
+.heading span{
+    font-size: 25px;
+    color: green;
+}
+.about_content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:50px;
+}
+.about_image img{
+    width: 80%;
+}
+.abt_details p{
+     margin-top: 30px;
+     font-size: 20px;
+     font-weight: 400;
+   
+}
+.abt_details p{
+ 
+    text-align: justify;
+}
+.information{
+    margin-top:30px;
+   
+}
+.info_box{
+    margin-bottom: 20px;
+}
+.info_box span{
+    margin-left: 15px;
+} 
+/* SKILL */
+#skill{
+    margin: 13% 8% 0% 8%;
+}
+.skill_container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    margin-top: 20px;
+}
+.skill_img img{
+    
+    width: 90%;
+
+}
+.bar_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0px;
+    margin-bottom: 2rem;
+    align-items: center;
+    position: relative;
+    
+}
+.bar_container span{
+    font-size: 20px;
+    font-weight: 600;
+}
+.bar_box{
+    width: 100%;
+    height: 0.6rem;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+   
+}
+.html_bar{
+    background-color: orange;
+    width: 95%;
+}
+.css_bar{
+    background-color: orange;
+    width: 88%;
+}
+.js_bar{
+    background-color: orange;
+    width: 89%;
+}
+.react_bar{
+    background-color: orange;
+    width: 85%;
+}          
+.icon_section{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding-top:70px;
+   
+}
+.icons , .up_arrow{
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid; */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  
+  
+}
+.icons i{
+    color: black;
+}
+.icons:hover{
+   background-image: linear-gradient(to top left, rgb(204, 93, 29),yellow
+   );
+}
+.icons:hover i {
+    color:white;
+    animation: shake 0.75s;
+}
+@keyframes shake{
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+    30%{
+        transform: rotate(15deg);
+    }
+    40%{
+        transform: rotate(-15deg);
+    }
+}
+footer{
+    margin: 50px 0px;
+}
+footer p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+.up_arrow{
+    float:right;
+    background-image: linear-gradient(to top left, rgb(204, 93, 29),yellow
+    );
+    margin: 30px 20px 30px 0px;
+}
+.up_arrow:hover i{
+    color: white;
+}
+
+
+html{
+    scroll-behavior:smooth;
+}

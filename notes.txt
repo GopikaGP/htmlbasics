@@ -1,0 +1,69 @@
+1) MarkUP Language : 
+               => Tag based langauge
+               => design Purpose
+               => Browser we can used to run mareup language
+               => <></>
+
+2) Programming Langauges : logical opertions
+
+3) Basic Tags in Html 
+    <html>
+    <head>
+        <title>First Program</title>
+    </head>
+    <body>
+        
+        Hello World 
+    </body>
+    
+</html>
+4 ) differece type of Tags
+  opening Tags 
+  closing tags
+  self closing or valid elements tags
+
+5)Semantic tags
+  we can reduce the loading time while using semantic tags
+  <header>
+  <aside>
+  <main>
+  <footer>
+6) Heading tags are :
+   h1  to h6
+
+7)P tags are used to create paragraph 
+   we can use the ketword lorem to generate dummy paragraph
+
+8)Alt + W is used to wrappe the tags
+
+9)IMG is used tomplace the images
+  <img src= "" alt =""/> img tag is a self close tage bcz its not contain any contents so we can say void elements
+
+10) whats is an attributes?
+  it gives more information to a tag or its a property of tags
+
+11)elements vs tags
+    
+    inside the elements include the content of the tagt also
+
+12) <a> a tag denoted as anchor tags
+
+  <a href = "" >contents </a>
+
+13) Tags
+       
+       <H1></H1>  to <h6></h6>
+       <p></p>
+       <img/>
+       <a></a>
+
+14) <a href ="" target = "_blank">Google </a>
+  target is used to we can open the link as a new page
+
+15)BLOCK LEVEL ELEMENTS 
+   starts with new line eg : <h1> to <h6> , <p>
+
+16)INLINE ELEMENTS
+  in same line  eg: <img/> <a></a>
+
+  
